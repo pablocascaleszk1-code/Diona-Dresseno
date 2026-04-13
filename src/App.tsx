@@ -22,7 +22,7 @@ import {
 // Constants
 const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=48996809760&text&type=phone_number&app_absent=0&utm_source=ig";
 const INSTAGRAM_URL = "https://www.instagram.com/dentistadio/";
-const EXPERT_NAME = "Diona Dresseno";
+const EXPERT_NAME = "Dra. Diona Dresseno";
 const LOCATION = "Av. Alm. Tamandaré, 94 - sala 408 - Coqueiros, Florianópolis - SC";
 
 const GALLERY_IMAGES = [
@@ -159,7 +159,7 @@ export default function App() {
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <img 
                 src={EXPERT_PHOTOS[1]} 
-                alt="Diona Dresseno no consultório"
+                alt="Dra. Diona Dresseno no consultório"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -182,7 +182,7 @@ export default function App() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-6">Muito prazer, sou a Diona.</h2>
+            <h2 className="text-3xl font-bold mb-6">Muito prazer, sou a Dra. Diona.</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
               Acredito que um sorriso saudável vai muito além da estética. É sobre autoestima, saúde e a liberdade de se expressar sem medos. No meu consultório em Coqueiros, ofereço um atendimento exclusivo, onde você não é apenas mais um paciente, mas sim o centro de todo o cuidado.
             </p>
@@ -367,7 +367,7 @@ export default function App() {
           <div className="rounded-3xl overflow-hidden aspect-video shadow-lg">
             <img 
               src={EXPERT_PHOTOS[0]} 
-              alt="Diona Dresseno" 
+              alt="Dra. Diona Dresseno" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
